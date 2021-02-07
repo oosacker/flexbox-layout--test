@@ -1,0 +1,50 @@
+@media(min-width: 600px) {
+    .container-1 {
+      display: flex;
+      
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      /* align-items: stretch; */
+      /* flex-direction: row; */
+
+      /* forces items to next row if oversized */
+    flex-wrap: wrap;    
+    
+      /* if you use flex: (number) for children, you can't set the spacing */
+      /* justify-content: space-between; */
+
+    }
+
+    .box {
+        width: 33%;
+    }
+      
+
+}
+
+.box {
+    /* makes the 'width' include the border and padding */
+    box-sizing: border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 10px;
+    background-color: rgb(66, 211, 255);
+    /* width: 25%; */
+}
+
+.box-1 {
+    /* flex:2 sets the width of this box to 2x larger than other 2 */
+    /* flex: 2; */
+    /* flex-basis: 10%; */
+}
+
+.box-2 {
+
+    /* flex-basis: 10%; */
+}
+
+.box-3 {
+ 
+    /* flex-basis: 10%; */
+}
+
